@@ -1,0 +1,23 @@
+{
+  "name": "cf7-allow-mailgun-validation",
+  "version": "1.0.0",
+  "main": "cf7-allow-mailgun-validation.php",
+  "author": "AndrewRMinion Design",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/macbookandrew/cf7-allow-mailgun-validation.git"
+  },
+  "license": "GPL-2.0-or-later",
+  "devDependencies": {
+    "grunt": "^1.0.3",
+    "grunt-wp-readme-to-markdown": "^2.0.1"
+  },
+  "description": "Allows your site’s mg subdomain to pass Contact Form 7’s form validation",
+  "bugs": {
+    "url": "https://github.com/macbookandrew/cf7-allow-mailgun-validation/issues"
+  },
+  "homepage": "https://github.com/macbookandrew/cf7-allow-mailgun-validation#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
