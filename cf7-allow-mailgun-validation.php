@@ -1,7 +1,7 @@
 <?php
 /**
- * Plugin Name: Contact Form 7 Allow Mailgun Domain Validation
- * Description: Allows the mg subdomain for your site to pass Contact Form 7 email validation.
+ * Plugin Name: Contact Form 7 Mailgun Domain Validation
+ * Description: Allows the mg domain for your site to pass Contact Form 7 email validation.
  * Version: 1.0.0
  * Author: AndrewRMinion Design
  * Author URI: https://andrewrminion.com.com
