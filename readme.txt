@@ -1,4 +1,4 @@
-=== Contact Form 7 Mailgun Domain Validation ===
+=== CF7 Mailgun Domain Validation ===
 Contributors: macbookandrew
 Tags: contact form, contact form 7, cf7, contactform7, validation, mailgun
 Donate link: https://cash.me/$AndrewRMinionDesign
