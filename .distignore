@@ -13,7 +13,7 @@ circle.yml
 composer.json
 composer.lock
 deploy.sh
-Gruntfile.js
+gruntfile.js
 multisite.xml
 multisite.xml.dist
 package.json
