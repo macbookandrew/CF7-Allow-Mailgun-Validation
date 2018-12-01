@@ -6,7 +6,7 @@
  * Author: AndrewRMinion Design
  * Author URI: https://andrewrminion.com.com
  *
- * @package cf7-allow-mailgun-validation
+ * @package cf7-mailgun-domain-validation
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
@@ -16,11 +16,11 @@ if ( ! defined( 'ABSPATH' ) ) {
 /**
  * CF7 Mailgun validation.
  */
-class CF7_Allow_Mailgun_Validation {
+class CF7_Mailgun_Domain_Validation {
 	/**
 	 * Class instance.
 	 *
-	 * @var CF7_Allow_Mailgun_Validation
+	 * @var CF7_Mailgun_Domain_Validation
 	 */
 	private static $_instance = null;
 
@@ -29,11 +29,11 @@ class CF7_Allow_Mailgun_Validation {
 	 *
 	 * @since 1.0.0
 	 *
-	 * @return CF7_Allow_Mailgun_Validation class.
+	 * @return CF7_Mailgun_Domain_Validation class.
 	 */
 	public static function get_instance() {
 		if ( null === self::$_instance ) {
-			self::$_instance = new CF7_Allow_Mailgun_Validation();
+			self::$_instance = new CF7_Mailgun_Domain_Validation();
 		}
 
 		return self::$_instance;
@@ -82,7 +82,7 @@ class CF7_Allow_Mailgun_Validation {
 		 *
 		 * @return string Your mailgun domain.
 		 */
-		$mg_domain = apply_filters( 'cf7_mailgun_validation', $mg_domain );
+		$mg_domain = apply_filters( 'cf7_mailgun_Domain_validation', $mg_domain );
 
 		// Get contact form and errors.
 		$form       = $validator->contact_form();
@@ -111,4 +111,4 @@ class CF7_Allow_Mailgun_Validation {
 	}
 }
 
-CF7_Allow_Mailgun_Validation::get_instance();
+CF7_Mailgun_Domain_Validation::get_instance();
