@@ -2,7 +2,7 @@
 /**
  * Plugin Name: CF7 Mailgun Domain Validation
  * Description: Allows the mg domain for your site to pass Contact Form 7 email validation.
- * Version: 1.0.1
+ * Version: 1.0.2
  * Author: AndrewRMinion Design
  * Author URI: https://andrewrminion.com.com
  *
@@ -82,7 +82,7 @@ class CF7_Mailgun_Domain_Validation {
 		 *
 		 * @return string Your mailgun domain.
 		 */
-		$mg_domain = apply_filters( 'cf7_mailgun_Domain_validation', $mg_domain );
+		$mg_domain = apply_filters( 'cf7_mailgun_domain', $mg_domain );
 
 		// Get contact form and errors.
 		$form       = $validator->contact_form();
