@@ -78,7 +78,7 @@ class CF7_Mailgun_Domain_Validation {
 		/**
 		 * Filter the Mailgun domain.
 		 *
-		 * @param string $domain Your mailgun domain; defaults to 'mg'.
+		 * @param string $domain Your mailgun domain; defaults to the domain set in the Mailgun plugin settings, or 'mg.your-site.com' if that is not set.
 		 *
 		 * @return string Your mailgun domain.
 		 */

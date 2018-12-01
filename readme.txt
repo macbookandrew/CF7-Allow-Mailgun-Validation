@@ -21,7 +21,7 @@ It also includes the `cf7_mailgun_domain` filter you can use to modify the defau
 /**
  * Filter the Mailgun domain.
  *
- * @param string $domain Your mailgun domain; defaults to 'mg.your-site.com'.
+ * @param string $domain Your mailgun domain; defaults to the domain set in the Mailgun plugin settings, or 'mg.your-site.com' if that is not set.
  *
  * @return string Your mailgun domain.
  */
