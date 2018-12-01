@@ -4,17 +4,17 @@
 **Donate link:** https://cash.me/$AndrewRMinionDesign  
 **Requires at least:** 4.8  
 **Tested up to:** 5.0.0  
-**Stable tag:** 1.0.0  
+**Stable tag:** 1.0.1  
 **License:** GPL2  
 
 Allows email addresses using your site’s Mailgun domain to pass Contact Form 7’s form validation feature.
 
 ## Description ##
-Do you use Mailgun to deliver emails from your WordPress site? Does it annoy you that the Mailgun email address causes Contact Form 7 validation to fail?
+Do you use Mailgun to deliver emails from your WordPress site? Does it annoy you that email addresses using the Mailgun domain causes Contact Form 7 validation to fail?
 
 This plugin allows email addresses using your site’s Mailgun domain to pass Contact Form 7’s form validation feature.
 
-It also includes the `cf7_mailgun_domain` filter you can use to modify the default 'mg' domain. Example:
+It also includes the `cf7_mailgun_domain` filter you can use to modify the default mailgun domain. Example:
 
 ```
 /**
@@ -37,5 +37,8 @@ add_filter( 'cf7_mailgun_domain', 'my_custom_mailgun_domain' );
 
 ## Changelog ##
 
-### 1.0 ###
+### 1.0.1 ###
+- Get Mailgun domain from Mailgun plugin options if available.
+
+### 1.0.0 ###
 - First stable version
