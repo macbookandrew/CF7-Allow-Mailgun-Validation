@@ -1,12 +1,12 @@
 # CF7 Mailgun Domain Validation #
-**Contributors:** [macbookandrew](https://profiles.wordpress.org/macbookandrew)  
-**Tags:** contact form, contact form 7, cf7, contactform7, validation, mailgun  
-**Donate link:** https://cash.me/$AndrewRMinionDesign  
-**Requires at least:** 4.8  
+**Contributors:** [macbookandrew](https://profiles.wordpress.org/macbookandrew)
+**Tags:** contact form, contact form 7, cf7, contactform7, validation, mailgun
+**Donate link:** https://cash.me/$AndrewRMinionDesign
+**Requires at least:** 4.8
 Requires PHP
-**Tested up to:** 5.0.0  
-**Stable tag:** 1.0.2  
-**License:** GPL2  
+**Tested up to:** 5.7.0
+**Stable tag:** 1.0.2
+**License:** GPL2
 
 Allows email addresses using your site’s Mailgun domain to pass Contact Form 7’s form validation feature.
 

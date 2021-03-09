@@ -4,7 +4,7 @@ Tags: contact form, contact form 7, cf7, contactform7, validation, mailgun
 Donate link: https://cash.me/$AndrewRMinionDesign
 Requires at least: 4.8
 Requires PHP
-Tested up to: 5.0.0
+Tested up to: 5.7.0
 Stable tag: 1.0.2
 License: GPL2
 
